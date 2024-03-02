@@ -84,11 +84,68 @@ header .nav-menu {
     gap: 20px;
     align-self: flex-end;
     margin-right: 30px;
+    
+    
+    
 }
 
 header .nav-menu li a {
     text-decoration: none;
     font-size: 20px;
     color: #9c9393;
+    
 }
 
+header .nav-menu li a:active,
+header .nav-menu li a:hover{
+    color: #66cf75;
+}
+
+
+/* List Item */
+.content {
+    background-color: #555555;
+    padding: 25px 10px;
+}
+
+.list-items {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.list-items .item {
+    text-align: justify;
+    background: #222121;
+    color: #9c9393;
+    border-radius: 14px;
+    width: 32%;
+}
+
+.list-items .item img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.list-items .item .item-content {
+    padding: 20px 15px;
+}
+
+.list-items .item .item-content h3.tittle {
+    font-size: 32px;
+    margin: 0px;
+    color: #70a578;
+}
+
+.list-items .item .item-content .desc {
+    font-size: 15px;
+}
